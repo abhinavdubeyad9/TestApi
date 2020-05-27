@@ -1,0 +1,115 @@
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: 'Luckiest Guy', cursive;
+}
+
+section{
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     justify-content: center; 
+     flex-direction: column; 
+     align-items: center; 
+    /* background-image: linear-gradient(to right, #333333,#dd1818 ); */
+    background-color: #eb0e36;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%2317191a' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");  
+  }
+.ad{
+  text-shadow: 2px 5px 5px #2f3542;
+  font-size: 2rem;
+  color:white;
+  text-align: center;
+}
+section h1{ text-shadow: 2px 5px 5px #2f3542;
+     word-spacing: 10px; 
+     margin-bottom: 15px; 
+ font-size:2.5rem;
+  text-transform: uppercase; 
+  letter-spacing: 2px;
+   color: white;
+}
+#shadow {
+    -webkit-box-shadow: 10px 10px 69px 0px rgba(0,0,0,0.64);
+    -moz-box-shadow: 10px 10px 69px 0px rgba(0,0,0,0.64);
+    box-shadow: 10px 10px 69px 0px rgba(0,0,0,0.64);
+  }
+.centerDiv{ width: 60%; height: 450px; box-shadow:2px 2px 2px 5px transparent; 
+     display: flex;  
+flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  background: #212121;
+   color: white;
+}
+
+
+
+.details{ text-align: center; text-transform: uppercase; }
+
+.details label{font-size: 1.4rem;}
+.details input { padding: 10px; background-color: #2a363b; color: white; text-align: center;}
+.details input[type=text]:focus {
+  border: 3px solid transparent;
+}
+
+.imgdiv {margin: 30px 0;}
+
+button {
+  background: #f2910a;
+  width: 180px;
+  padding: 4px 0;
+  border-radius: 5px;
+   border-color: transparent; 
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+    background-color: darken(#f1c40f, 20%);
+   }
+
+
+  button:hover {
+    cursor: pointer;
+    padding: 10px 4px;
+  }
+
+  .leftside{
+      position: absolute;
+      top:25%;
+  }
+ul{
+    width: 100px;
+    position: absolute;
+    overflow: hidden;
+}
+  .leftside li{
+      list-style-type: none;
+      padding: 20px;
+      transition: .4s;
+      color: white;
+      position: relative;
+  }
+  .leftside li a{
+      text-decoration: none;
+      color: white;
+  }
+.leftside li i{
+    font-size: 40px;
+    
+}
+
+.leftside li:hover{
+    padding: 20px 40px;
+}
+/* .leftside li:nth-child(1){
+    background: #3b5998;
+} */
+@media only screen and (max-width: 600px) {
+  .res h1{
+      font-size: 20px;
+      text-align: center;
+  }
+  .leftside li i{
+    font-size: 20px;
+  }
+}
